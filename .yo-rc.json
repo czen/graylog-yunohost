@@ -1,0 +1,18 @@
+{
+  "generator-dockerapp-yunohost": {
+    "beautifulName": "graylog-yunohost",
+    "defaultPathOption": "",
+    "forceSecureAccess": true,
+    "secureAccessOption": false,
+    "adminUserOption": false,
+    "enDescription": "Log aggregation service",
+    "frDescription": "Log aggregation service",
+    "urlApp": "",
+    "urlDockerHub": "",
+    "authorName": "Anton Bagliy",
+    "authorEmail": "taccessviolation@gmail.com",
+    "idName": "graylog-yunohost",
+    "reverseProxyProtocol": "http",
+    "scriptsLoadSave": false
+  }
+}

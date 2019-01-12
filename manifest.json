@@ -1,0 +1,36 @@
+{
+    "name": "graylog-yunohost",
+    "id": "graylog-yunohost",
+    "url": "",
+    "packaging_format": 1,
+    "description": {
+        "en": "Log aggregation service",
+        "fr": "Log aggregation service"
+    },
+    "version": "1.0",
+    "license": "AGPL-3.0",
+    "maintainer": {
+        "name": "Anton Bagliy",
+        "email": "taccessviolation@gmail.com"
+    },
+    "requirements": {
+        "yunohost": ">= 2.7.2"
+    },
+    "services": [
+        "nginx"
+     ],
+    "multi_instance": true,
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain",
+                "ask": {
+                    "en": "Choose a domain for graylog-yunohost",
+                    "fr": "Choisissez un domaine pour graylog-yunohost"
+                },
+                "example": "app.domain.org"
+            }
+        ]
+    }
+}
